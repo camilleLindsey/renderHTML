@@ -27,15 +27,18 @@
         <style>
                 table, th, td {
                     border: 1px solid black;
-                    border-collapse: collapse;
+                    border;
+                    
                 }
                 th, td {
                     padding: 15px;
                     text-align: center;
+                    
                 }
                 table#t01 {
                     width: 100%;    
                     background-color: #f1f1c1;
+                    
                 }
                 </style>
         <tr>
@@ -88,17 +91,20 @@
 <h4>Contact Me</h4>
 <p>Enter your message below. Be sure to fill in your email so that I can respond to you!</p>
 <br>Your email:
-    <input type="text" name="" id="email">
-    
-    <br>Message:
-    <texarea><name="message" id="message" cols="30"
-    rows="10"></texarea>
+    <input type="text" name="" id="email" placeholder="enter email here">
+
+<br>Message:
+
+<textarea name="message" id="message" cols="30" rows="10"></textarea>
+
 <p>Curious, are you from Hawaii?</p>
-<input type="radio" name="yes" id="yes">yes
+<input type="radio" name="yes" id="yes">Yes
 <br>
-<input type="radio" name="no" id="no"
+<input type="radio" name="no" id="no">No
 <br>
-<select name="message"
+<input type="radio" name="First time to my site" id="First time to my site">First time to my site?
+<br>
+<select name="message">pizza</select>
 
 </body>
 </html>
